@@ -1,13 +1,14 @@
 package main
 
 import (
-	"fmt"
-
-	"github.com/morjuax/go-desde-0/variables"
+	"github.com/morjuax/go-desde-0/conditions"
+	// "github.com/morjuax/go-desde-0/variables"
 )
 
 func main() {
-	state, text := variables.ConvertToText(1588)
+	// state, text := variables.ConvertToText(1588)
+	// utils.Print(state, text)
 
-	fmt.Println(state, text)
+	conditions.LearningIf()
+	conditions.LearningSwitch()
 }
